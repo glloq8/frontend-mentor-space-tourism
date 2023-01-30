@@ -24,7 +24,12 @@ body {
   width: 1440px;
   height: 900px;
   position: relative;
+
+  @include down(830) {
+    height: auto;
+  }
 }
+
 
 header {
   display: flex;

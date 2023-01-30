@@ -1216,6 +1216,10 @@ body.page-technology {
     background-position: bottom center;
   }
 
+  .page {
+    height: auto;
+  }
+
   .home {
     margin-top: 66px;
     flex-direction: column;
@@ -1424,7 +1428,6 @@ body.page-technology {
   body {
     min-height: 100min;
     background-size: 100% 100%;
-    background-color: red;
   }
 
   header .menu {
