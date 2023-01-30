@@ -17,7 +17,6 @@ body {
   @include down(700) {
     min-height: 100min;
     background-size: 100% 100%;
-    background-color: red;
   }
 }
 
