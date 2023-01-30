@@ -2,7 +2,7 @@
 // ==================
 :root {
     --container-padding: 20px;
-    --container-width: 100%;
+    --container-width: calc(100vw - var(--container-padding) * 2);
 }
 
 %container,
@@ -35,6 +35,6 @@
 
 @media only screen and (min-width: 1025px) {
   :root {
-    --container-width: 730px;
+    --container-width: 1110px;
   }
 }
